@@ -11,8 +11,8 @@ import UIKit
 class WebImageViewController: HCBaseViewController {
 
     private var imageView : UIImageView!
-    private let urlStr = "http://dlcj1uppc65bl.cloudfront.net/userPhoto/07a4fa834f70ca0465aa9673c9d1abb852576.jpeg"
-
+    private let urlStr = "http://dlcj1uppc65bl.cloudfront.net/userPhoto/1542731707_cytQ.jpg"
+    //"http://dlcj1uppc65bl.cloudfront.net/userPhoto/07a4fa834f70ca0465aa9673c9d1abb852576.jpeg"
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,16 +29,25 @@ class WebImageViewController: HCBaseViewController {
         imageView = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: KHCScreenWidth, height: KHCScreenWidth))
         imageView.center = self.view.center
         imageView.contentMode = .scaleAspectFit
+        imageView.backgroundColor = UIColor.lightGray
         self.view.addSubview(imageView)
         
         self.view.addSubview(progressLine)
         self.view.addSubview(progressLabel)
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+            self.downLoadWebImage(url: self.urlStr)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        self.downLoadWebImage(url: urlStr)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
     }
     
     func downLoadWebImage(url: String) {
