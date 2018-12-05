@@ -1,4 +1,5 @@
 PODS:
+  - lottie-ios (2.5.2)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -8,21 +9,24 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - lottie-ios
   - SDWebImage
   - WXImageCompress (~> 0.1.1)
   - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - lottie-ios
     - SDWebImage
     - WXImageCompress
     - YYKit
 
 SPEC CHECKSUMS:
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   WXImageCompress: 4003213a788574c3e307faec0130359c52e43887
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 2817c9150a8f4ef34e4268e6fe3de2f76f83c118
+PODFILE CHECKSUM: 52a7f696fed10436c2c79becf0bc54fcdce6afa6
 
 COCOAPODS: 1.5.3

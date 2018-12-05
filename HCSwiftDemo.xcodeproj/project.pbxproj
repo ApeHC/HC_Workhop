@@ -12,11 +12,16 @@
 		3E5AE85621A5343A00006F90 /* WebImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5AE85521A5343A00006F90 /* WebImageViewController.swift */; };
 		3E5AE85821A536BF00006F90 /* HCSwiftDemoConfigFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5AE85721A536BF00006F90 /* HCSwiftDemoConfigFile.swift */; };
 		3E5AE85A21A53E2400006F90 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5AE85921A53E2400006F90 /* launch.png */; };
+		3E5C6B5D21B7710B00ABEA29 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B5C21B7710A00ABEA29 /* LottieViewController.swift */; };
+		3E5C6B6321B7730E00ABEA29 /* heartBeat.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C6B6021B7730D00ABEA29 /* heartBeat.json */; };
+		3E74B01021AD56C000D9E4CE /* NSString+compositeText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E74B00F21AD56C000D9E4CE /* NSString+compositeText.m */; };
+		3E74B01321AE6EF100D9E4CE /* TransformRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E74B01221AE6EF100D9E4CE /* TransformRange.m */; };
 		3EBA96B821882A4A00CFF641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA96B721882A4A00CFF641 /* AppDelegate.swift */; };
 		3EBA96BA21882A4A00CFF641 /* PhotolibrarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA96B921882A4A00CFF641 /* PhotolibrarController.swift */; };
 		3EBA96BD21882A4A00CFF641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA96BB21882A4A00CFF641 /* Main.storyboard */; };
 		3EBA96BF21882A4C00CFF641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA96BE21882A4C00CFF641 /* Assets.xcassets */; };
 		3EBA96C221882A4C00CFF641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA96C021882A4C00CFF641 /* LaunchScreen.storyboard */; };
+		3ED1E0A421A6B9930067B209 /* TextLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED1E0A321A6B9930067B209 /* TextLayoutController.swift */; };
 		3ED5CBAB219EAAEB00E6240D /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5CBAA219EAAEB00E6240D /* ShowViewController.swift */; };
 		B935E0779DBC76BED5E68157 /* Pods_HCSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8337AEA6BB353E478A1B82E3 /* Pods_HCSwiftDemo.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +33,12 @@
 		3E5AE85521A5343A00006F90 /* WebImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageViewController.swift; sourceTree = "<group>"; };
 		3E5AE85721A536BF00006F90 /* HCSwiftDemoConfigFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCSwiftDemoConfigFile.swift; sourceTree = "<group>"; };
 		3E5AE85921A53E2400006F90 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		3E5C6B5C21B7710A00ABEA29 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		3E5C6B6021B7730D00ABEA29 /* heartBeat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heartBeat.json; sourceTree = "<group>"; };
+		3E74B00E21AD56C000D9E4CE /* NSString+compositeText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+compositeText.h"; sourceTree = "<group>"; };
+		3E74B00F21AD56C000D9E4CE /* NSString+compositeText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+compositeText.m"; sourceTree = "<group>"; };
+		3E74B01121AE6EF100D9E4CE /* TransformRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformRange.h; sourceTree = "<group>"; };
+		3E74B01221AE6EF100D9E4CE /* TransformRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformRange.m; sourceTree = "<group>"; };
 		3EBA96B421882A4A00CFF641 /* HCSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBA96B721882A4A00CFF641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EBA96B921882A4A00CFF641 /* PhotolibrarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotolibrarController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,7 @@
 		3EBA96C121882A4C00CFF641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EBA96C321882A4C00CFF641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBA96C921882BC100CFF641 /* HCSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3ED1E0A321A6B9930067B209 /* TextLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayoutController.swift; sourceTree = "<group>"; };
 		3ED5CBAA219EAAEB00E6240D /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
 		8337AEA6BB353E478A1B82E3 /* Pods_HCSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9479B3F3DA101786C97ED220 /* Pods-HCSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCSwiftDemo/Pods-HCSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,8 +88,37 @@
 				3EBA96B921882A4A00CFF641 /* PhotolibrarController.swift */,
 				3ED5CBAA219EAAEB00E6240D /* ShowViewController.swift */,
 				3E5AE85521A5343A00006F90 /* WebImageViewController.swift */,
+				3ED1E0A321A6B9930067B209 /* TextLayoutController.swift */,
+				3E5C6B5C21B7710A00ABEA29 /* LottieViewController.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		3E5C6B5E21B7720D00ABEA29 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C6B5F21B772A100ABEA29 /* lottie_json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3E5C6B5F21B772A100ABEA29 /* lottie_json */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C6B6021B7730D00ABEA29 /* heartBeat.json */,
+			);
+			path = lottie_json;
+			sourceTree = "<group>";
+		};
+		3E74B00D21AD564400D9E4CE /* Developer */ = {
+			isa = PBXGroup;
+			children = (
+				3E74B00E21AD56C000D9E4CE /* NSString+compositeText.h */,
+				3E74B00F21AD56C000D9E4CE /* NSString+compositeText.m */,
+				3E74B01121AE6EF100D9E4CE /* TransformRange.h */,
+				3E74B01221AE6EF100D9E4CE /* TransformRange.m */,
+			);
+			path = Developer;
 			sourceTree = "<group>";
 		};
 		3EBA96AB21882A4A00CFF641 = {
@@ -111,7 +152,9 @@
 				3EBA96C921882BC100CFF641 /* HCSwiftDemo-Bridging-Header.h */,
 				3E5AE85721A536BF00006F90 /* HCSwiftDemoConfigFile.swift */,
 				3E5AE85921A53E2400006F90 /* launch.png */,
+				3E74B00D21AD564400D9E4CE /* Developer */,
 				3E5AE85421A533FD00006F90 /* Class */,
+				3E5C6B5E21B7720D00ABEA29 /* Resource */,
 			);
 			path = HCSwiftDemo;
 			sourceTree = "<group>";
@@ -178,6 +221,7 @@
 			files = (
 				3E5AE85A21A53E2400006F90 /* launch.png in Resources */,
 				3EBA96C221882A4C00CFF641 /* LaunchScreen.storyboard in Resources */,
+				3E5C6B6321B7730E00ABEA29 /* heartBeat.json in Resources */,
 				3EBA96BF21882A4C00CFF641 /* Assets.xcassets in Resources */,
 				3EBA96BD21882A4A00CFF641 /* Main.storyboard in Resources */,
 			);
@@ -220,6 +264,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/WXImageCompress/WXImageCompress.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -228,6 +273,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXImageCompress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -241,10 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5C6B5D21B7710B00ABEA29 /* LottieViewController.swift in Sources */,
+				3E74B01021AD56C000D9E4CE /* NSString+compositeText.m in Sources */,
 				3EBA96BA21882A4A00CFF641 /* PhotolibrarController.swift in Sources */,
 				3EBA96B821882A4A00CFF641 /* AppDelegate.swift in Sources */,
 				3E5AE85821A536BF00006F90 /* HCSwiftDemoConfigFile.swift in Sources */,
+				3E74B01321AE6EF100D9E4CE /* TransformRange.m in Sources */,
 				3ED5CBAB219EAAEB00E6240D /* ShowViewController.swift in Sources */,
+				3ED1E0A421A6B9930067B209 /* TextLayoutController.swift in Sources */,
 				3E5AE85621A5343A00006F90 /* WebImageViewController.swift in Sources */,
 				3E5AE85321A5301100006F90 /* HCBaseViewController.swift in Sources */,
 				3E5AE85121A52CE000006F90 /* MainViewController.swift in Sources */,

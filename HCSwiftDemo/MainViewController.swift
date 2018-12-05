@@ -11,7 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
 
     var cellNameArray : [String] = []
-    var clickVCArray  : [HCBaseViewController] = []
+    var clickVCArray  : [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,17 +19,17 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.view.addSubview(tableView)
         
-        self.addCell(cellTitle: "ImageCompress", clickClass: PhotolibrarController())
-        self.addCell(cellTitle: "DownloadImage", clickClass: WebImageViewController())
-        
-        
+        self.addCell(cellTitle: "ImageCompress", clickClass: PhotolibrarController.self)
+        self.addCell(cellTitle: "DownloadImage", clickClass: WebImageViewController.self)
+        self.addCell(cellTitle: "TextLayout", clickClass: TextLayoutController.self)
+        self.addCell(cellTitle: "LottieAnimation", clickClass: LottieViewController.self)
         self.tableView.reloadData()
         
     }
     
-    func addCell(cellTitle: String, clickClass: HCBaseViewController) {
+    func addCell(cellTitle: String, clickClass: AnyClass) {
         cellNameArray.append(cellTitle)
-        clickVCArray.append(clickClass)
+        clickVCArray.append(NSStringFromClass(clickClass))
     }
     
     lazy var tableView : UITableView = {
@@ -56,7 +56,8 @@ extension MainViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc : HCBaseViewController = clickVCArray[indexPath.row]
+        let vcClass = NSClassFromString(clickVCArray[indexPath.row]) as! HCBaseViewController.Type
+        let vc = vcClass.init()
         vc.title = cellNameArray[indexPath.row]
         self.navigationController?.pushViewController(vc, animated: true)
     }

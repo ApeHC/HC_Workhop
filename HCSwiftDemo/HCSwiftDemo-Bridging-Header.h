@@ -11,6 +11,10 @@
 
 @import YYKit;
 @import SDWebImage;
+@import Lottie;
 @import WXImageCompress;
+
+#import "NSString+compositeText.h"
+#import "TransformRange.h"
 
 #endif /* HCSwiftDemo_Bridging_Header_h */
