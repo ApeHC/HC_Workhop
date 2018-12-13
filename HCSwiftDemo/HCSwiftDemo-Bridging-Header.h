@@ -13,6 +13,7 @@
 @import SDWebImage;
 @import Lottie;
 @import WXImageCompress;
+@import Alamofire;
 
 #import "NSString+compositeText.h"
 #import "TransformRange.h"

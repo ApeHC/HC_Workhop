@@ -14,6 +14,12 @@
 		3E5AE85A21A53E2400006F90 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5AE85921A53E2400006F90 /* launch.png */; };
 		3E5C6B5D21B7710B00ABEA29 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B5C21B7710A00ABEA29 /* LottieViewController.swift */; };
 		3E5C6B6321B7730E00ABEA29 /* heartBeat.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C6B6021B7730D00ABEA29 /* heartBeat.json */; };
+		3E5C6B6721B7B48300ABEA29 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B6621B7B48300ABEA29 /* NetworkingViewController.swift */; };
+		3E5C6B6A21B7C78D00ABEA29 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B6921B7C78D00ABEA29 /* BlockViewController.swift */; };
+		3E5C6B6E21B7CBFE00ABEA29 /* HCLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B6D21B7CBFE00ABEA29 /* HCLoginView.swift */; };
+		3E5C6B7021B7E78400ABEA29 /* Black2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B6F21B7E78400ABEA29 /* Black2ViewController.swift */; };
+		3E5C6B7521BA3E4B00ABEA29 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C6B7421BA3E4B00ABEA29 /* AnimationViewController.swift */; };
+		3E5C6B7721BA6A2F00ABEA29 /* bigImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C6B7621BA6A2F00ABEA29 /* bigImg1.png */; };
 		3E74B01021AD56C000D9E4CE /* NSString+compositeText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E74B00F21AD56C000D9E4CE /* NSString+compositeText.m */; };
 		3E74B01321AE6EF100D9E4CE /* TransformRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E74B01221AE6EF100D9E4CE /* TransformRange.m */; };
 		3EBA96B821882A4A00CFF641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA96B721882A4A00CFF641 /* AppDelegate.swift */; };
@@ -35,6 +41,12 @@
 		3E5AE85921A53E2400006F90 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		3E5C6B5C21B7710A00ABEA29 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		3E5C6B6021B7730D00ABEA29 /* heartBeat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heartBeat.json; sourceTree = "<group>"; };
+		3E5C6B6621B7B48300ABEA29 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		3E5C6B6921B7C78D00ABEA29 /* BlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
+		3E5C6B6D21B7CBFE00ABEA29 /* HCLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCLoginView.swift; sourceTree = "<group>"; };
+		3E5C6B6F21B7E78400ABEA29 /* Black2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black2ViewController.swift; sourceTree = "<group>"; };
+		3E5C6B7421BA3E4B00ABEA29 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		3E5C6B7621BA6A2F00ABEA29 /* bigImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigImg1.png; sourceTree = "<group>"; };
 		3E74B00E21AD56C000D9E4CE /* NSString+compositeText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+compositeText.h"; sourceTree = "<group>"; };
 		3E74B00F21AD56C000D9E4CE /* NSString+compositeText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+compositeText.m"; sourceTree = "<group>"; };
 		3E74B01121AE6EF100D9E4CE /* TransformRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformRange.h; sourceTree = "<group>"; };
@@ -90,6 +102,11 @@
 				3E5AE85521A5343A00006F90 /* WebImageViewController.swift */,
 				3ED1E0A321A6B9930067B209 /* TextLayoutController.swift */,
 				3E5C6B5C21B7710A00ABEA29 /* LottieViewController.swift */,
+				3E5C6B6621B7B48300ABEA29 /* NetworkingViewController.swift */,
+				3E5C6B6921B7C78D00ABEA29 /* BlockViewController.swift */,
+				3E5C6B6F21B7E78400ABEA29 /* Black2ViewController.swift */,
+				3E5C6B6D21B7CBFE00ABEA29 /* HCLoginView.swift */,
+				3E5C6B7421BA3E4B00ABEA29 /* AnimationViewController.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -97,6 +114,7 @@
 		3E5C6B5E21B7720D00ABEA29 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3E5C6B7621BA6A2F00ABEA29 /* bigImg1.png */,
 				3E5C6B5F21B772A100ABEA29 /* lottie_json */,
 			);
 			path = Resource;
@@ -221,6 +239,7 @@
 			files = (
 				3E5AE85A21A53E2400006F90 /* launch.png in Resources */,
 				3EBA96C221882A4C00CFF641 /* LaunchScreen.storyboard in Resources */,
+				3E5C6B7721BA6A2F00ABEA29 /* bigImg1.png in Resources */,
 				3E5C6B6321B7730E00ABEA29 /* heartBeat.json in Resources */,
 				3EBA96BF21882A4C00CFF641 /* Assets.xcassets in Resources */,
 				3EBA96BD21882A4A00CFF641 /* Main.storyboard in Resources */,
@@ -261,6 +280,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HCSwiftDemo/Pods-HCSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/WXImageCompress/WXImageCompress.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
@@ -270,6 +290,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXImageCompress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
@@ -292,9 +313,14 @@
 				3EBA96BA21882A4A00CFF641 /* PhotolibrarController.swift in Sources */,
 				3EBA96B821882A4A00CFF641 /* AppDelegate.swift in Sources */,
 				3E5AE85821A536BF00006F90 /* HCSwiftDemoConfigFile.swift in Sources */,
+				3E5C6B6E21B7CBFE00ABEA29 /* HCLoginView.swift in Sources */,
 				3E74B01321AE6EF100D9E4CE /* TransformRange.m in Sources */,
+				3E5C6B7521BA3E4B00ABEA29 /* AnimationViewController.swift in Sources */,
 				3ED5CBAB219EAAEB00E6240D /* ShowViewController.swift in Sources */,
 				3ED1E0A421A6B9930067B209 /* TextLayoutController.swift in Sources */,
+				3E5C6B7021B7E78400ABEA29 /* Black2ViewController.swift in Sources */,
+				3E5C6B6A21B7C78D00ABEA29 /* BlockViewController.swift in Sources */,
+				3E5C6B6721B7B48300ABEA29 /* NetworkingViewController.swift in Sources */,
 				3E5AE85621A5343A00006F90 /* WebImageViewController.swift in Sources */,
 				3E5AE85321A5301100006F90 /* HCBaseViewController.swift in Sources */,
 				3E5AE85121A52CE000006F90 /* MainViewController.swift in Sources */,

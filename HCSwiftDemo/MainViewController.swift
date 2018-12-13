@@ -23,6 +23,10 @@ class MainViewController: UIViewController {
         self.addCell(cellTitle: "DownloadImage", clickClass: WebImageViewController.self)
         self.addCell(cellTitle: "TextLayout", clickClass: TextLayoutController.self)
         self.addCell(cellTitle: "LottieAnimation", clickClass: LottieViewController.self)
+        self.addCell(cellTitle: "Network", clickClass: NetworkingViewController.self)
+        self.addCell(cellTitle: "block1", clickClass: BlockViewController.self)
+        self.addCell(cellTitle: "block2", clickClass: Black2ViewController.self)
+        self.addCell(cellTitle: "Animation", clickClass: AnimationViewController.self)
         self.tableView.reloadData()
         
     }
