@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "51D44B832B8275556933414F0DDB3AEC"
+               BlueprintIdentifier = "94A3ADE912232363C56B562D529AE60B"
                BlueprintName = "WXImageCompress"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "WXImageCompress.framework">

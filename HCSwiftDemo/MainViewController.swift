@@ -27,6 +27,8 @@ class MainViewController: UIViewController {
         self.addCell(cellTitle: "block1", clickClass: BlockViewController.self)
         self.addCell(cellTitle: "block2", clickClass: Black2ViewController.self)
         self.addCell(cellTitle: "Animation", clickClass: AnimationViewController.self)
+        self.addCell(cellTitle: "Player", clickClass: PlayerViewController.self)
+        self.addCell(cellTitle: "Particle", clickClass: ParticleViewController.self)
         self.tableView.reloadData()
         
     }
@@ -60,6 +62,7 @@ extension MainViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
         let vcClass = NSClassFromString(clickVCArray[indexPath.row]) as! HCBaseViewController.Type
         let vc = vcClass.init()
         vc.title = cellNameArray[indexPath.row]

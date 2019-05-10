@@ -6,5 +6,6 @@ target :HCSwiftDemo do
     pod 'lottie-ios'
     pod 'Alamofire'
     pod 'WXImageCompress', '~> 0.1.1'
+    pod 'Masonry'
 end
 

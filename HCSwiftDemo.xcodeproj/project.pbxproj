@@ -27,6 +27,15 @@
 		3EBA96BD21882A4A00CFF641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA96BB21882A4A00CFF641 /* Main.storyboard */; };
 		3EBA96BF21882A4C00CFF641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA96BE21882A4C00CFF641 /* Assets.xcassets */; };
 		3EBA96C221882A4C00CFF641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBA96C021882A4C00CFF641 /* LaunchScreen.storyboard */; };
+		3EC69E1722851BA900A53A7D /* ParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC69E1622851BA900A53A7D /* ParticleViewController.swift */; };
+		3EC69E1D22851F8000A53A7D /* ye2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC69E1922851F8000A53A7D /* ye2.jpg */; };
+		3EC69E1E22851F8000A53A7D /* ye0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC69E1A22851F8000A53A7D /* ye0.jpg */; };
+		3EC69E1F22851F8000A53A7D /* ye3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC69E1B22851F8000A53A7D /* ye3.jpg */; };
+		3EC69E2022851F8000A53A7D /* ye1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC69E1C22851F8000A53A7D /* ye1.jpg */; };
+		3EC6DD35221BCC99005711EB /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6DD34221BCC99005711EB /* PlayerViewController.swift */; };
+		3EC6DD3D221BCCDF005711EB /* HCControlPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6DD37221BCCDE005711EB /* HCControlPlay.m */; };
+		3EC6DD3E221BCCDF005711EB /* HCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6DD38221BCCDE005711EB /* HCPlayer.m */; };
+		3EC6DD3F221BCCDF005711EB /* HCPlayerBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6DD3A221BCCDF005711EB /* HCPlayerBottomBar.m */; };
 		3ED1E0A421A6B9930067B209 /* TextLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED1E0A321A6B9930067B209 /* TextLayoutController.swift */; };
 		3ED5CBAB219EAAEB00E6240D /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5CBAA219EAAEB00E6240D /* ShowViewController.swift */; };
 		B935E0779DBC76BED5E68157 /* Pods_HCSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8337AEA6BB353E478A1B82E3 /* Pods_HCSwiftDemo.framework */; };
@@ -59,6 +68,18 @@
 		3EBA96C121882A4C00CFF641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EBA96C321882A4C00CFF641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBA96C921882BC100CFF641 /* HCSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HCSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EC69E1622851BA900A53A7D /* ParticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleViewController.swift; sourceTree = "<group>"; };
+		3EC69E1922851F8000A53A7D /* ye2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ye2.jpg; sourceTree = "<group>"; };
+		3EC69E1A22851F8000A53A7D /* ye0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ye0.jpg; sourceTree = "<group>"; };
+		3EC69E1B22851F8000A53A7D /* ye3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ye3.jpg; sourceTree = "<group>"; };
+		3EC69E1C22851F8000A53A7D /* ye1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ye1.jpg; sourceTree = "<group>"; };
+		3EC6DD34221BCC99005711EB /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		3EC6DD37221BCCDE005711EB /* HCControlPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCControlPlay.m; sourceTree = "<group>"; };
+		3EC6DD38221BCCDE005711EB /* HCPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPlayer.m; sourceTree = "<group>"; };
+		3EC6DD39221BCCDF005711EB /* HCPlayerBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPlayerBottomBar.h; sourceTree = "<group>"; };
+		3EC6DD3A221BCCDF005711EB /* HCPlayerBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPlayerBottomBar.m; sourceTree = "<group>"; };
+		3EC6DD3B221BCCDF005711EB /* HCControlPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCControlPlay.h; sourceTree = "<group>"; };
+		3EC6DD3C221BCCDF005711EB /* HCPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPlayer.h; sourceTree = "<group>"; };
 		3ED1E0A321A6B9930067B209 /* TextLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayoutController.swift; sourceTree = "<group>"; };
 		3ED5CBAA219EAAEB00E6240D /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
 		8337AEA6BB353E478A1B82E3 /* Pods_HCSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +128,8 @@
 				3E5C6B6F21B7E78400ABEA29 /* Black2ViewController.swift */,
 				3E5C6B6D21B7CBFE00ABEA29 /* HCLoginView.swift */,
 				3E5C6B7421BA3E4B00ABEA29 /* AnimationViewController.swift */,
+				3EC6DD34221BCC99005711EB /* PlayerViewController.swift */,
+				3EC69E1622851BA900A53A7D /* ParticleViewController.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -114,6 +137,7 @@
 		3E5C6B5E21B7720D00ABEA29 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3EC69E1822851F6A00A53A7D /* particle */,
 				3E5C6B7621BA6A2F00ABEA29 /* bigImg1.png */,
 				3E5C6B5F21B772A100ABEA29 /* lottie_json */,
 			);
@@ -160,6 +184,7 @@
 		3EBA96B621882A4A00CFF641 /* HCSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3EC6DD36221BCCCB005711EB /* Player */,
 				3EBA96B721882A4A00CFF641 /* AppDelegate.swift */,
 				3E5AE85021A52CE000006F90 /* MainViewController.swift */,
 				3E5AE85221A5301100006F90 /* HCBaseViewController.swift */,
@@ -175,6 +200,30 @@
 				3E5C6B5E21B7720D00ABEA29 /* Resource */,
 			);
 			path = HCSwiftDemo;
+			sourceTree = "<group>";
+		};
+		3EC69E1822851F6A00A53A7D /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				3EC69E1A22851F8000A53A7D /* ye0.jpg */,
+				3EC69E1C22851F8000A53A7D /* ye1.jpg */,
+				3EC69E1922851F8000A53A7D /* ye2.jpg */,
+				3EC69E1B22851F8000A53A7D /* ye3.jpg */,
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
+		3EC6DD36221BCCCB005711EB /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				3EC6DD3B221BCCDF005711EB /* HCControlPlay.h */,
+				3EC6DD37221BCCDE005711EB /* HCControlPlay.m */,
+				3EC6DD3C221BCCDF005711EB /* HCPlayer.h */,
+				3EC6DD38221BCCDE005711EB /* HCPlayer.m */,
+				3EC6DD39221BCCDF005711EB /* HCPlayerBottomBar.h */,
+				3EC6DD3A221BCCDF005711EB /* HCPlayerBottomBar.m */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5AE85A21A53E2400006F90 /* launch.png in Resources */,
+				3EC69E2022851F8000A53A7D /* ye1.jpg in Resources */,
 				3EBA96C221882A4C00CFF641 /* LaunchScreen.storyboard in Resources */,
 				3E5C6B7721BA6A2F00ABEA29 /* bigImg1.png in Resources */,
 				3E5C6B6321B7730E00ABEA29 /* heartBeat.json in Resources */,
+				3EC69E1E22851F8000A53A7D /* ye0.jpg in Resources */,
 				3EBA96BF21882A4C00CFF641 /* Assets.xcassets in Resources */,
+				3EC69E1F22851F8000A53A7D /* ye3.jpg in Resources */,
+				3EC69E1D22851F8000A53A7D /* ye2.jpg in Resources */,
 				3EBA96BD21882A4A00CFF641 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +334,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HCSwiftDemo/Pods-HCSwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/WXImageCompress/WXImageCompress.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
@@ -291,6 +345,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXImageCompress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
@@ -316,14 +371,19 @@
 				3E5C6B6E21B7CBFE00ABEA29 /* HCLoginView.swift in Sources */,
 				3E74B01321AE6EF100D9E4CE /* TransformRange.m in Sources */,
 				3E5C6B7521BA3E4B00ABEA29 /* AnimationViewController.swift in Sources */,
+				3EC69E1722851BA900A53A7D /* ParticleViewController.swift in Sources */,
 				3ED5CBAB219EAAEB00E6240D /* ShowViewController.swift in Sources */,
+				3EC6DD3E221BCCDF005711EB /* HCPlayer.m in Sources */,
 				3ED1E0A421A6B9930067B209 /* TextLayoutController.swift in Sources */,
 				3E5C6B7021B7E78400ABEA29 /* Black2ViewController.swift in Sources */,
 				3E5C6B6A21B7C78D00ABEA29 /* BlockViewController.swift in Sources */,
 				3E5C6B6721B7B48300ABEA29 /* NetworkingViewController.swift in Sources */,
 				3E5AE85621A5343A00006F90 /* WebImageViewController.swift in Sources */,
 				3E5AE85321A5301100006F90 /* HCBaseViewController.swift in Sources */,
+				3EC6DD3F221BCCDF005711EB /* HCPlayerBottomBar.m in Sources */,
 				3E5AE85121A52CE000006F90 /* MainViewController.swift in Sources */,
+				3EC6DD3D221BCCDF005711EB /* HCControlPlay.m in Sources */,
+				3EC6DD35221BCC99005711EB /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

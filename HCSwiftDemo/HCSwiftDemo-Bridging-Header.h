@@ -14,8 +14,9 @@
 @import Lottie;
 @import WXImageCompress;
 @import Alamofire;
+@import Masonry;
 
 #import "NSString+compositeText.h"
 #import "TransformRange.h"
-
+#import "HCPlayer.h"
 #endif /* HCSwiftDemo_Bridging_Header_h */
